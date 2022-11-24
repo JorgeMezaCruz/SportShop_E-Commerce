@@ -1,0 +1,79 @@
+﻿@model IEnumerable<E_Commerce20.Models.Producto>
+
+@{
+    ViewBag.Title = "ProductosMntIndex";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+
+}
+
+<br />
+
+<div class="card shadow-lg">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Listado de Productos</h3>
+        <br />
+        <a href="@Url.Action("ProductosMntCreate", "ProductosMnt")" class="btn btn-primary btn-icon-split">
+            <span class="icon text-white-50">
+                <i class="fas fa-plus"></i>
+            </span>
+            <span class="text">Registrar Producto</span>
+        </a>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.idProducto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nomProducto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.idProveedor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.idCategoria)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.precioUnidad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.stockProducto)
+                </th>
+                <th></th>
+            </tr>
+
+
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idProducto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nomProducto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idProveedor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idCategoria)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.precioUnidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.stockProducto)
+                </td>
+                <td>
+                    <a href="@Url.Action("ProductosMntEdit", "ProductosMnt", new { id = item.idProducto })" class="btn btn-success btn-circle">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                </td>
+            </tr>
+            }
+
+        </table>
+    </div>
+</div>
+

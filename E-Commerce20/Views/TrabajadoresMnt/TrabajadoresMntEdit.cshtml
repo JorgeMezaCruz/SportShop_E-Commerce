@@ -1,0 +1,97 @@
+﻿@model E_Commerce20.Models.Trabajadores
+
+@{
+    ViewBag.Title = "TrabajadoresMntEdit";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+}
+
+<br />
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <br />
+    <div class="card shadow-lg">
+        <div class="card-header">
+            <h6 class="m-0 font-weight-bold text-dark">Actualizar datos del trabajador</h6>
+
+        </div>
+        <div class="card-body">
+            <form class="user">
+                @{
+                    if (!string.IsNullOrEmpty(ViewBag.mensaje))
+                    {
+                        <div class="alert alert-success">@ViewBag.mensaje</div>
+                    }
+                }
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DniTrab, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.DniTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "DNI", @readonly = "readonly" } })
+                    @Html.ValidationMessageFor(model => model.DniTrab, "", new { @class = "text-danger" })
+                </div>
+
+
+                <div class="form-group row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        @Html.LabelFor(model => model.NombreTrab, htmlAttributes: new { @class = "control-label col-md-6" })
+                        @Html.EditorFor(model => model.NombreTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Nombre" } })
+                        @Html.ValidationMessageFor(model => model.NombreTrab, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-sm-6">
+                        @Html.LabelFor(model => model.ApellidosTrab, htmlAttributes: new { @class = "control-label col-md-6" })
+                        @Html.EditorFor(model => model.ApellidosTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Apellido" } })
+                        @Html.ValidationMessageFor(model => model.ApellidosTrab, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DireccionTrab, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.DireccionTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Dirección" } })
+                    @Html.ValidationMessageFor(model => model.DireccionTrab, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.id_ciudad, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.DropDownList("id_ciudad", (SelectList)ViewBag.ciudades, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TelefonoTrab, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.TelefonoTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Teléfono" } })
+                    @Html.ValidationMessageFor(model => model.TelefonoTrab, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CorreoTrab, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.CorreoTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Email", @readonly = "readonly" } })
+                    @Html.ValidationMessageFor(model => model.CorreoTrab, "", new { @class = "text-danger" })
+
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.PasswordTrab, htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.EditorFor(model => model.PasswordTrab, new { @id = "password", htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Contraseña", @type = "password", @readonly = "readonly" } })
+                    @Html.ValidationMessageFor(model => model.PasswordTrab, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Guardar" class="btn btn-success btn-user btn-block" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+}
+<br />
+<a href="@Url.Action("TrabajadoresMntIndex", "TrabajadoresMnt")" class="btn btn-light btn-icon-split">
+    <span class="icon text-dark">
+        <i class="fas fa-angle-double-left "></i>
+    </span>
+    <span class="text">Regresar al Listado</span>
+</a>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

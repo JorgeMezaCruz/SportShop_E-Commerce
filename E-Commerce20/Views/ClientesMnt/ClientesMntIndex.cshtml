@@ -1,0 +1,93 @@
+﻿@model IEnumerable<E_Commerce20.Models.Clientes>
+
+@{
+    ViewBag.Title = "ClientesMntIndex";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+}
+<br />
+
+<div class="card shadow-lg">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Listado de Clientes</h3>
+    </div>
+    <div class="card-body">
+
+        <table class="table table-striped">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DniCliente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NombreCliente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ApellidosCliente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DireccionCliente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.id_ciudad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TelefonoCliente)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CorreoCliente)
+                    </th>
+                    @*<th>
+                @Html.DisplayNameFor(model => model.PasswordCliente)
+            </th>*@
+                    <th></th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DniCliente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NombreCliente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ApellidosCliente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DireccionCliente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.id_ciudad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TelefonoCliente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CorreoCliente)
+                        </td>
+                        @*<td>
+                    @Html.DisplayFor(modelItem => item.PasswordCliente)
+                </td>*@
+                        <td>
+                            <a href="@Url.Action("ClientesMntEdit", "ClientesMnt", new { id = item.DniCliente })" class="btn btn-success btn-circle">
+                                <i class="fas fa-edit"></i>
+                            </a>
+
+                        </td>
+
+                        <td>
+                            <a href="@Url.Action("ClientesMntDelete", "ClientesMnt", new { id = item.DniCliente})" class="btn btn-danger btn-circle"
+                               onclick="return confirm('Estas seguro de querer eliminar este registro?')">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
+                        </td>
+
+                    </tr>
+                }
+        </table>
+    </div>
+
+</div>
+
+

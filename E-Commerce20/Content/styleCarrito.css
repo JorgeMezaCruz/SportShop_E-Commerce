@@ -1,0 +1,49 @@
+﻿.cuerpo {
+    width: 100%;
+    height: auto;
+    margin: 2px 2px 2px 2px;
+    background-color: ghostwhite;
+    float: left;
+}
+
+.registro {
+    background-color: honeydew;
+    width: 20%;
+    height: 280px;
+    float: left;
+    border: 1px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 1px 20px 20px 1px;
+    text-align: center;
+}
+
+
+.imagen {
+    width: 70%;
+    height: 120px;
+    margin: 7px auto;
+}
+
+.enlace {
+    text-align: center;
+    color:blanchedalmond;
+    text-decoration-color:blanchedalmond;
+}
+
+
+.agrega {
+    background-color: lightyellow;
+    width: 70%;
+    height: auto;
+    border: 1px solid;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+    .agrega > div {
+        width: 30%;
+        height: auto;
+        padding: 5px 5px 5px 5px;
+        float: left;
+    }

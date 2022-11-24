@@ -1,0 +1,37 @@
+﻿@model IEnumerable<E_Commerce20.Models.registro>
+
+@{
+    ViewBag.Title = "Comprar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+@Html.Partial("_PartialComprar")
+
+<br />
+<div class="card shadow-lg">
+    <strong>Monto Total: @ViewBag.mt</strong>
+</div>
+
+<br />
+<a href="@Url.Action("Pago", "Carrito")" class="btn bg-warning btn-icon-split">
+    <span class="icon text-white">
+        <i class="fas fa-shopping-cart"></i>
+    </span>
+    <span class="text">Realizar Pago</span>
+</a>
+
+<br />
+<br />
+<br />
+
+<a href="@Url.Action("IndexCarrito", "Carrito")" class="btn btn-primary btn-icon-split">
+    <span class="icon text-light">
+        <i class="fas fa-angle-double-left "></i>
+    </span>
+    <span class="text">Volver al Menu Principal</span>
+</a>
+
+
+
+

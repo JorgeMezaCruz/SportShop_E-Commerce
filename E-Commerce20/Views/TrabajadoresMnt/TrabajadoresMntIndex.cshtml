@@ -1,0 +1,95 @@
+﻿@model IEnumerable<E_Commerce20.Models.Trabajadores>
+
+@{
+    ViewBag.Title = "TrabajadoresMntIndex";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+}
+
+<br />
+<div class="card shadow-lg">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Listado de Trabajadores</h3>
+        <br />
+        <a href="@Url.Action("TrabajadoresMntCreate", "TrabajadoresMnt")" class="btn btn-primary btn-icon-split">
+            <span class="icon text-white-50">
+                <i class="fas fa-plus"></i>
+            </span>
+            <span class="text">Registrar Trabajador</span>
+        </a>
+    </div>
+    <div class="card-body">
+
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DniTrab)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombreTrab)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ApellidosTrab)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DireccionTrab)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.id_ciudad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TelefonoTrab)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CorreoTrab)
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DniTrab)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreTrab)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApellidosTrab)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DireccionTrab)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id_ciudad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TelefonoTrab)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CorreoTrab)
+                </td>
+                <td>
+                    <a href="@Url.Action("TrabajadoresMntEdit", "TrabajadoresMnt", new { id = item.DniTrab })" class="btn btn-success btn-circle">
+                        <i class="fas fa-edit"></i>
+                    </a>
+
+                </td>
+
+                <td>
+                    <a href="@Url.Action("TrabajadoresMntDelete", "TrabajadoresMnt", new { id = item.DniTrab})" class="btn btn-danger btn-circle"
+                       onclick="return confirm('Estas seguro de querer eliminar este registro?')">
+                        <i class="far fa-trash-alt"></i>
+                    </a>
+                </td>
+
+
+
+            </tr>
+            }
+
+        </table>
+    </div>
+</div>
+

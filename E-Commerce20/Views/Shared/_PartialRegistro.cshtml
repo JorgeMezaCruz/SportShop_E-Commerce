@@ -1,0 +1,28 @@
+﻿@model E_Commerce20.Models.Producto
+
+<link href="~/Content/styleCarrito.css" type="text/css" rel="stylesheet" />
+<div class="card-body">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Selección de Producto</h3>
+        <br />
+            <a href="@Url.Action("IndexCarrito", "Carrito")" class="btn btn-primary btn-icon-split">
+                <span class="icon text-light">
+                    <i class="fas fa-angle-double-left "></i>
+                </span>
+                <span class="text">Volver al Menu Principal</span>
+            </a>
+    </div>
+
+    <div class="agrega">
+        <div>
+            <br />
+            Codigo : @Model.idProducto <br />
+            Producto:@Model.nomProducto<br />
+            Precio: S./ @Model.precioUnidad<br />
+            Stock: @Model.stockProducto<br />
+        </div>
+        <div style="margin-left:280px">
+            <img class="imagen img-thumbnail" src=@Url.Content(string.Format("~/imagenes/{0}.jpg",Model.idProducto)) />
+        </div>
+    </div>
+</div>

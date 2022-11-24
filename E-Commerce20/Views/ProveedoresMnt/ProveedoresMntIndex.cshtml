@@ -1,0 +1,83 @@
+﻿@model IEnumerable<E_Commerce20.Models.Proveedor>
+
+@{
+    ViewBag.Title = "ProveedoresMntIndex";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+}
+
+<br />
+
+<div class="card shadow-lg">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Listado de Proveedores</h3>
+        <br />
+        <a href="@Url.Action("ProveedoresMntCreate", "ProveedoresMnt")" class="btn btn-primary btn-icon-split">
+            <span class="icon text-white-50">
+                <i class="fas fa-plus"></i>
+            </span>
+            <span class="text">Registrar Proveedor</span>
+        </a>
+    </div>
+    <div class="card-body">
+
+        <table class="table table-striped">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.idProveedor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombreCia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nombreContacto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.direccion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.id_ciudad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.telefono)
+                </th>
+                <th>Acciones</th>
+            </tr>
+
+
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idProveedor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombreCia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombreContacto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.id_ciudad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.telefono)
+                </td>
+                <td>
+                    <a href="@Url.Action("ProveedoresMntEdit", "ProveedoresMnt", new { id = item.idProveedor })" class="btn btn-success btn-circle">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                </td>
+            </tr>
+            }
+
+        </table>
+    </div>
+
+</div>
+
+
+
+

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<E_Commerce20.Models.Producto>
+<link href="~/Content/styleCarrito.css" type="text/css" rel="stylesheet" />
+
+<div class="card-body">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Productos</h3>
+        <br />
+        <a href="@Url.Action("Comprar", "Carrito")" class="btn btn-primary btn-icon-split">
+            <span class="icon text-white-50">
+                <i class="fas fa-shopping-cart"></i>
+            </span>
+            <span class="text">Realizar Compra</span>
+        </a>
+    </div>
+    <div class="cuerpo">
+        <br />
+        @foreach (var reg in Model)
+        {
+            <div class="registro bg-gradient-light card shadow-lg">
+                <table>
+                    <tr>
+                        <td><img class="imagen img-thumbnail" src=@Url.Content(string.Format("~/imagenes/{0}.jpg",reg.idProducto)) /> </td>
+                    </tr>
+
+                    <tr>
+                        <td>@reg.nomProducto</td>
+                    </tr>
+
+                    <tr>
+                        <td>Precio : S/. @reg.precioUnidad</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="btn bg-success">
+                            @Html.ActionLink("Añadir al Carrito", "Seleccionar", new { id = reg.idProducto })
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        }
+    </div>
+</div>

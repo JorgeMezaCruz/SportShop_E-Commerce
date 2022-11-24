@@ -1,0 +1,89 @@
+﻿@model E_Commerce20.Models.Proveedor
+
+@{
+    ViewBag.Title = "ProveedoresMntEdit";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+}
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <br />
+    <div class="card shadow-lg">
+        <div class="card-header">
+            <h6 class="m-0 font-weight-bold text-dark">Registro de proveedores</h6>
+        </div>
+        <div class="card-body">
+            <form class="user">
+                @{
+                    if (!string.IsNullOrEmpty(ViewBag.mensaje))
+                    {
+                        <div class="alert alert-success">@ViewBag.mensaje</div>
+                    }
+                }
+
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        @Html.LabelFor(model => model.idProveedor, htmlAttributes: new { @class = "control-label col-md-6" })
+                        @Html.EditorFor(model => model.idProveedor, new { htmlAttributes = new { @class = "form-control form-control-user", @readonly = "readonly" } })
+                        @Html.ValidationMessageFor(model => model.idProveedor, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="col-sm-6">
+                        @Html.LabelFor(model => model.nombreCia, htmlAttributes: new { @class = "control-label col-md-6" })
+                        @Html.EditorFor(model => model.nombreCia, new { htmlAttributes = new { @class = "form-control form-control-user" } })
+                        @Html.ValidationMessageFor(model => model.nombreCia, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="col-sm-10">
+                        @Html.LabelFor(model => model.nombreContacto, htmlAttributes: new { @class = "control-label col-md-6" })
+                        @Html.EditorFor(model => model.nombreContacto, new { htmlAttributes = new { @class = "form-control form-control-user" } })
+                        @Html.ValidationMessageFor(model => model.nombreContacto, "", new { @class = "text-danger" })
+                    </div>
+
+
+                    <div class="col-sm-10">
+                        @Html.LabelFor(model => model.direccion, htmlAttributes: new { @class = "control-label col-md-10" })
+                        @Html.EditorFor(model => model.direccion, new { htmlAttributes = new { @class = "form-control form-control-user" } })
+                        @Html.ValidationMessageFor(model => model.direccion, "", new { @class = "text-danger" })
+                    </div>
+
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.id_ciudad, htmlAttributes: new { @class = "control-label col-md-8" })
+                        @Html.DropDownList("id_ciudad", (SelectList)ViewBag.ciudades, new { @class = "form-control" })
+
+                    </div>
+
+                    <div class="col-sm-4">
+                        @Html.LabelFor(model => model.telefono, htmlAttributes: new { @class = "control-label col-md-6" })
+                        @Html.EditorFor(model => model.telefono, new { htmlAttributes = new { @class = "form-control form-control-user" } })
+                        @Html.ValidationMessageFor(model => model.telefono, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Guardar" class="btn btn-success btn-user btn-block" />
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+}
+
+<br />
+<a href="@Url.Action("ProveedoresMntIndex", "ProveedoresMnt")" class="btn btn-light btn-icon-split">
+    <span class="icon text-dark">
+        <i class="fas fa-angle-double-left "></i>
+    </span>
+    <span class="text">Regresar al Listado</span>
+</a>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+

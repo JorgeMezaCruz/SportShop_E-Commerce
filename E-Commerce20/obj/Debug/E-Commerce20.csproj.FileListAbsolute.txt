@@ -1,0 +1,174 @@
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\E-Commerce20.dll.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\E-Commerce20.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\E-Commerce20.pdb
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\csc.exe
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\csc.exe.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\csc.rsp
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\csi.exe
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\csi.exe.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\csi.rsp
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.AppContext.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Collections.Immutable.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Console.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.Compression.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.FileSystem.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.Pipes.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Reflection.Metadata.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.AccessControl.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Claims.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.ValueTuple.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Xml.XPath.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\vbc.exe
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\vbc.exe.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\vbc.rsp
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\VBCSCompiler.exe
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\roslyn\VBCSCompiler.exe.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\Antlr3.Runtime.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\Microsoft.Web.Infrastructure.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\Newtonsoft.Json.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.Helpers.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.Mvc.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.Optimization.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.Razor.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.Deployment.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.Razor.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\WebGrease.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.Helpers.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.Mvc.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.Optimization.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.Razor.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.Deployment.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.Razor.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\Newtonsoft.Json.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\Antlr3.Runtime.pdb
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\es\System.Web.Helpers.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\es\System.Web.Mvc.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\es\System.Web.Optimization.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\es\System.Web.Razor.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\es\System.Web.WebPages.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.csprojAssemblyReference.cache
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.csproj.CoreCompileInputs.cache
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.csproj.CopyComplete
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.pdb
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\EntityFramework.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\EntityFramework.SqlServer.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\EntityFramework.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto\E-Commerce20\E-Commerce20\bin\EntityFramework.SqlServer.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\E-Commerce20.dll.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\E-Commerce20.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\E-Commerce20.pdb
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\csc.exe
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\csc.exe.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\csc.rsp
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\csi.exe
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\csi.exe.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\csi.rsp
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.AppContext.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Collections.Immutable.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Console.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.Compression.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.FileSystem.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.IO.Pipes.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Reflection.Metadata.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.AccessControl.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Claims.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.ValueTuple.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Xml.XPath.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\vbc.exe
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\vbc.exe.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\vbc.rsp
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\VBCSCompiler.exe
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\roslyn\VBCSCompiler.exe.config
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\Antlr3.Runtime.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\EntityFramework.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\EntityFramework.SqlServer.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\Microsoft.Web.Infrastructure.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\Newtonsoft.Json.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.Helpers.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.Mvc.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.Optimization.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.Razor.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.Deployment.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.Razor.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\WebGrease.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\EntityFramework.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\EntityFramework.SqlServer.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.Helpers.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.Mvc.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.Optimization.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.Razor.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.Deployment.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\System.Web.WebPages.Razor.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\Newtonsoft.Json.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\Antlr3.Runtime.pdb
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\es\System.Web.Helpers.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\es\System.Web.Mvc.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\es\System.Web.Optimization.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\es\System.Web.Razor.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\es\System.Web.WebPages.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.csprojAssemblyReference.cache
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.csproj.CoreCompileInputs.cache
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.csproj.CopyComplete
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.dll
+F:\Ciclo V\Desarrollo de Servicios Web\Proyecto - sportshop\E-Commerce20\E-Commerce20\obj\Debug\E-Commerce20.pdb

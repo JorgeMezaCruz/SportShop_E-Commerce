@@ -1,0 +1,88 @@
+﻿@model IEnumerable<E_Commerce20.Models.Producto>
+
+@{
+    ViewBag.Title = "ProductosReporte";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+}
+
+
+
+<br />
+<div class="card shadow-lg">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Busqueda de Productos</h3>
+        @using (Html.BeginForm())
+        {
+            <br />
+            @Html.TextBox("nombre")
+            <button class="btn bg-success text-gray-100">Buscar</button>
+        }
+
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.idProducto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nomProducto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.idProveedor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.idCategoria)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.precioUnidad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.stockProducto)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idProducto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nomProducto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idProveedor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idCategoria)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.precioUnidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.stockProducto)
+                </td>
+                <td>
+                    <a href="@Url.Action("ProductosMntEdit", "ProductosMnt", new { id = item.idProducto })" class="btn btn-success btn-circle">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                </td>
+
+            </tr>
+            }
+
+        </table>
+    </div>
+
+</div>
+@for (int i = 0; i < (int)ViewBag.pags; i++)
+{
+    @Html.ActionLink((i + 1).ToString(), "ProductosReporte",
+   new { p = i,y=ViewBag.y }, new { @class = "btn btn-success" });
+
+}
+
+
+

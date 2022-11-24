@@ -1,0 +1,91 @@
+﻿@model IEnumerable<E_Commerce20.Models.pedidos>
+
+@{
+    ViewBag.Title = "PedidosYear";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+}
+
+<br />
+
+<div class="card shadow-lg">
+
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Pedidos por Año</h3>
+        @using (Html.BeginForm())
+        {
+            <em>Ingrese un año</em>
+            <br />
+            @Html.TextBox("y", 0)
+            <button class="btn bg-success text-gray-100">Buscar</button>
+        }
+
+    </div>
+
+
+    <div class="card-body">
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.idpedido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.fecha)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.dnicli)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cliente)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.direccion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.monto)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.idpedido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fecha)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.dnicli)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.cliente)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.direccion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.monto)
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    </div>
+
+    @for (int i = 0; i < (int)ViewBag.pags; i++)
+    {
+        @Html.ActionLink((i + 1).ToString(), "PedidosYear",
+       new { p = i,y=ViewBag.y }, new { @class = "btn btn-success" });
+
+    }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<E_Commerce20.Models.registro>
+
+<link href="~/Content/styleCarrito.css" type="text/css" rel="stylesheet" />
+<link href="~/Content/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<!-- Custom styles for this template-->
+<link href="~/Content/css/sb-admin-2.min.css" rel="stylesheet">
+
+<div class="card shadow-lg">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Compra</h3>
+    </div>
+    <div class="card-body">
+
+        <table class="table table-striped">
+            <tr>
+                <th>Codigo</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Cantidad</th>
+                <th>Monto</th>
+                <th>Imagen</th>
+                <th></th>
+            </tr>
+
+            @foreach (var reg in Model)
+            {
+            <tr>
+                <td>@reg.idProducto</td>
+                <td>@reg.nomProducto</td>
+                <td>@reg.precioUnidad</td>
+                <td>@reg.stockProducto</td>
+                <td>@reg.cantidad</td>
+                <td>@reg.monto</td>
+                <td><img width="90" height="60" class="img-thumbnail" src=@Url.Content(string.Format("~/imagenes/{0}.jpg",reg.idProducto)) /> </td>
+                <td>
+                    <a href="@Url.Action("Elimina", "Carrito", new { id = reg.idProducto})" class="btn btn-danger btn-circle"
+                       onclick="return confirm('Estas seguro de eliminar el producto del carrito?')">
+                        <i class="far fa-trash-alt"></i>
+                    </a>
+                </td>
+            </tr>
+            }
+        </table>
+    </div>
+</div>
+

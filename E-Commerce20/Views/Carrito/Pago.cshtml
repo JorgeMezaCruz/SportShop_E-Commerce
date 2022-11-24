@@ -1,0 +1,43 @@
+﻿@model IEnumerable<E_Commerce20.Models.registro>
+
+@{
+    ViewBag.Title = "Pago";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<br />
+<div class="card shadow-lg">
+    <div class="card-header">
+        <h3 class="m-0 font-weight-bold text-dark">Ingrese sus datos</h3>
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm())
+        {
+            <div>Ingrese su DNI</div>
+            <div><input type="text" name="dni" value="@ViewBag.dni" /></div>
+            <div>Ingrese su nombre y Apellidos</div>
+            <div><input type="text" name="nom" value="@ViewBag.nom" /></div>
+            <div><input type="submit" value="Aceptar" /></div>
+        }
+
+
+        <br />
+
+    </div>
+</div>
+
+@Html.Partial("_PartialComprar")
+<br />
+<div class="card shadow-lg">
+    <strong>Monto Total: @ViewBag.mt</strong>
+</div>
+<br />
+<a href="@Url.Action("IndexCarrito", "Carrito")" class="btn btn-primary btn-icon-split">
+    <span class="icon text-light">
+        <i class="fas fa-angle-double-left "></i>
+    </span>
+    <span class="text">Volver al Menu Principal</span>
+</a>
+

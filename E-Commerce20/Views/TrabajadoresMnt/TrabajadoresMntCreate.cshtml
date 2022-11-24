@@ -1,0 +1,114 @@
+﻿@model E_Commerce20.Models.Trabajadores
+
+@{
+    ViewBag.Title = "TrabajadoresMntCreate";
+    Layout = "~/Views/Shared/_LayoutCompleto.cshtml";
+}
+
+<br />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="container">
+        <br />
+        @{
+            if (!string.IsNullOrEmpty(ViewBag.mensaje))
+            {
+                <div class="alert alert-success">@ViewBag.mensaje</div>
+            }
+        }
+
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-block bg-login-image"></div>
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="h4 text-gray-900 mb-4">
+                                    Registro de Trabajador
+                                </h1>
+                            </div>
+                            <form class="user">
+
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        @Html.EditorFor(model => model.NombreTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Nombre" } })
+                                        @Html.ValidationMessageFor(model => model.NombreTrab, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="col-sm-6">
+                                        @Html.EditorFor(model => model.ApellidosTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Apellido" } })
+                                        @Html.ValidationMessageFor(model => model.ApellidosTrab, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.EditorFor(model => model.CorreoTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Email" } })
+                                    @Html.ValidationMessageFor(model => model.CorreoTrab, "", new { @class = "text-danger" })
+
+                                </div>
+
+
+                                <div class="form-group">
+                                    @Html.EditorFor(model => model.DniTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "DNI" } })
+                                    @Html.ValidationMessageFor(model => model.DniTrab, "", new { @class = "text-danger" })
+                                </div>
+
+
+                                <div class="form-group">
+                                    @Html.EditorFor(model => model.DireccionTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Dirección" } })
+                                    @Html.ValidationMessageFor(model => model.DireccionTrab, "", new { @class = "text-danger" })
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.DropDownList("id_ciudad", (SelectList)ViewBag.ciudades, "Ciudad", new { @class = "form-control" })
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.EditorFor(model => model.TelefonoTrab, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Teléfono" } })
+                                    @Html.ValidationMessageFor(model => model.TelefonoTrab, "", new { @class = "text-danger" })
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        @Html.EditorFor(model => model.PasswordTrab, new { @id = "password", htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Contraseña" } })
+                                        @Html.ValidationMessageFor(model => model.PasswordTrab, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="col-sm-6">
+                                        @Html.EditorFor(model => model.PasswordTrabConfirmacion, new { htmlAttributes = new { @class = "form-control form-control-user", @placeholder = "Repetir Contraseña" } })
+                                        @Html.ValidationMessageFor(model => model.PasswordTrabConfirmacion, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="form-group">
+                                    <input type="submit" value="Registrar" class="btn btn-primary btn-user btn-block" />
+                                </div>
+                            </form>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+    <a href="@Url.Action("TrabajadoresMntIndex", "TrabajadoresMnt")" class="btn btn-light btn-icon-split">
+        <span class="icon text-dark">
+            <i class="fas fa-angle-double-left "></i>
+        </span>
+        <span class="text">Regresar al Listado</span>
+    </a>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+
+

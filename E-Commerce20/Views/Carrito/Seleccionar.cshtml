@@ -1,0 +1,17 @@
+﻿@model E_Commerce20.Models.Producto
+
+@{
+    ViewBag.Title = "Seleccionar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@Html.Partial("_PartialRegistro")
+
+@using (Html.BeginForm())
+{
+    <button type="submit" value="Agregar" class="btn btn-success mb-2">Agregar</button>
+
+}
+
